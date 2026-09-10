@@ -31,7 +31,7 @@ class PermanentError(Exception):
 
 MAX_RETRIES = 3
 BASE_BACKOFF = 0.5
-TRANSIENT_FAILURE_RATE = 0.5
+TRANSIENT_FAILURE_RATE = 0.2
 
 def send_to_dlq(dlq_producer, msg, order, reason, error, attempts):
     """Write a failed message to the DLQ with diagnostic metadata."""
