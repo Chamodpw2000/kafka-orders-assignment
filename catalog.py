@@ -22,4 +22,5 @@ PRODUCTS = [
     {"product": "Router AC1200",         "price": 84.60},
     {"product": "Surge Protector",       "price": 19.95},
     {"product": "Cooling Pad",           "price": 27.30},
+    {"product": "Corrupted Item",        "price": -1.00},
 ]
